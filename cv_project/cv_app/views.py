@@ -1,9 +1,9 @@
 from django.shortcuts import render
 
 
-def homepage(request):
+def profil(request):
     """
     :param request: None
     :return: HomePage
     """
-    return render(request, 'homepage.html', locals())
+    return render(request, 'profil.html', locals())

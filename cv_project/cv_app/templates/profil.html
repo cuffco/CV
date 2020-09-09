@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+              <div>
+                  <strong> Profil </strong>
+              </div>
+
+          </div>
+        </nav>
+
+        <div class="container">
+            <h2 class="mb-4">Me Concernant</h2>
+            <p> Très curieux de nature, c'est après une reconversion professionnelle en 2016 que j'ai découvert le monde de l'informatique. Mon attrait pour ce domaine m'a permis d'évoluer rapidement et de découvrir de nombreux métiers.</p>
+            <p> Je suis toujours en quête d'apprentissage et en recherche de nouvelles expériences, c'est pour cela que j'ai décidé de devenir développeur web en freelance.</p>
+        </div>
+
+        <div class="container">
+            <h2 class="mb-4">Ma Formation</h2>
+            <p> Titulaire d'un diplôme d'ingénieur généraliste, j'ai suivi une formation complémetaire en ligne pour obtenir un diplôme de développeur d'application Python </p>
+                <ul>
+                    <li> 2020 : Diplôme de développeur d'application - Python
+                    <a href="https://openclassrooms.com/fr/paths/68-developpeur-dapplication-python" target="_blank">
+                        <img alt="openclassrooms" src="{% static 'img/openclassrooms.jpg' %}" width="120" height="80">
+                    </a>
+                    </li>
+                    <li> 2013 : Diplôme d'ingénieur généraliste
+                    <a href="https://www.esigelec.fr/fr" target="_blank">
+                        <img alt="esigelec" src="{% static 'img/esigelec.png' %}" width="240" height="60">
+                    </a>
+                    </li>
+                </ul>
+        </div>
+
+        <div class="container">
+            <h2 class="mb-4">Mes Expériences</h2>
+
+                <h6 style="text-align:center"> Freelance Full Stack Développeur </h6>
+                <p><i>De Juin 2020 à Aujourd'hui </i></p>
+                <p><strong>Mission: </strong> Création from scratch d'un site web développé en Django pour une association luttant pour la protection et la défense des animaux et de l’environnement.</p>
+                <p><strong>Compétences: </strong>
+                <ul style="list-style-type: none;">
+                    <li> Back: Django </li>
+                    <li> Front: HTML - CSS - JS - Jquery - Bootstrap </li>
+                    <li> Test: Unittest - Selenium</li>
+                    <li> DataBase: PostgreSQL </li>
+                    <li> Intégration continue: Github - Travis</li>
+                    <li> Production: Nginx - Gunicorn - Supervisor </li>
+                    <li> Monitoring: Sentry - DigitalOcean </li>
+                    <li> Specs: Modélisation UML </li>
+                    <li> Suivi de projet: Trello</li>
+                </ul>
+
+                </p>
+
+
+            <div class="row">
+                <div class="col-md text-center">
+                    <img class="center" alt="atos" src="{% static 'img/atos.png' %}" width="100" height="80">
+                    <p><i>De Novembre 2018 à Juin 2020 </i></p>
+                    <p class="text-left"><strong>Mission: </strong> Prise en charge des tests d'intégration, fonctionnels, d'acceptation et automatiques pour Orange TV (Live, replay, VOD et PickleTV) </p>
+                    <p class="text-left"><strong>Compétences: </strong>
+                        <ul class="text-left" style="list-style-type: none;">
+                            <li> Méthodologie Agile: Scrum - Safe - DevOps </li>
+                            <li> Environnement: PC - Mac - Android - IOS</li>
+                            <li> DataBase: MongoDB</li>
+                            <li> Intégration continue: Github - Gitlab</li>
+                            <li> Test: Postman - Newman</li>
+                            <li> Suivi de projet: Jira - Confluence</li>
+                            <li> Intégration continue: Jenkins</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="col-md text-center">
+                    <img class="center" alt="sopra" src="{% static 'img/sopra.png' %}" width="100" height="80">
+                    <p><i>De Mai 2016 à Novembre 2018</i></p>
+                    <p class="text-left"><strong>Mission: </strong> Gestion d'un projet informatique sur le site E.quilibre d'EDF</p>
+                    <p class="text-left"><strong>Compétences: </strong>
+                        <ul class="text-left" style="list-style-type: none;">
+                            <li> Méthodologie Agile: Scrum - DevOps </li>
+                            <li> Environnement: PC - Mac - Android - IOS </li>
+                            <li> Test: SoapUI </li>
+                            <li> Suivi de projet: HP ALM </li>
+                        </ul>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+</div>
+
+
+{% endblock %}
