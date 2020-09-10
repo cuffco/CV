@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+              <div>
+                  <strong> Projets </strong>
+              </div>
+
+          </div>
+        </nav>
+
+        <h2 class="mb-4">Mes Projets</h2>
+
+
+        <div class="container">
+            <h6 class="mb-4">Get Up For Animals</h6>
+            <div class="row">
+                <div class="col">
+                   <p> </p>
+
+                </div>
+                <div class="col">
+                    <img src="{% static 'img/frontend.jpg' %}" class="rounded float-right" alt="frontend" width="350" height="250">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h6 class="mb-4">Open Food Facts</h6>
+        </div>
+
+        <div class="container">
+            <h6 class="mb-4">GrandPy-Bot</h6>
+        </div>
+
+        <div class="container">
+            <h6 class="mb-4">Pur Beurre</h6>
+        </div>
+
+        <div class="container">
+            <h6 class="mb-4">Labyrinthe Mac Gyver</h6>
+        </div>
+</div>
+
+
+{% endblock %}
