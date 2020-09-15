@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', include('cv_app.urls', namespace='cv_app')),
-    path('admin/', admin.site.urls),
+    path('content/', admin.site.urls),
 ]
 
 if settings.DEBUG:

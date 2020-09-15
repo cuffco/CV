@@ -1,4 +1,5 @@
 from django.shortcuts import render
+
 from .forms import ContactForm, ParagraphErrorList
 from .models import Contact
 
@@ -6,7 +7,7 @@ from .models import Contact
 def profil(request):
     """
     :param request: None
-    :return: HomePage
+    :return: Profil Page
     """
     return render(request, 'profil.html', locals())
 
@@ -14,7 +15,7 @@ def profil(request):
 def services(request):
     """
     :param request: None
-    :return: HomePage
+    :return: Services Page
     """
     return render(request, 'services.html', locals())
 
@@ -22,12 +23,16 @@ def services(request):
 def projects(request):
     """
     :param request: None
-    :return: HomePage
+    :return: Projects Page
     """
     return render(request, 'projects.html', locals())
 
 
 def get_contact(request):
+    """
+        :param request: ContactForm
+        :return: Contact Page and sent a mail to alexandre.cuffel@cuffco.net
+        """
     form = ContactForm(request.POST, error_class=ParagraphErrorList)
     if form.is_valid():
         first_name = form.cleaned_data['first_name']
@@ -40,7 +45,6 @@ def get_contact(request):
                                          phone_number=phone_number,
                                          email=email, message=message)
         contact.save()
-        form = ContactForm()
     else:
         form = ContactForm()
     return render(request, 'contact.html', {'form': form})
