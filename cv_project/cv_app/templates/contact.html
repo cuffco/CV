@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+              <div>
+                  <strong> Contact </strong>
+              </div>
+
+          </div>
+        </nav>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3" id="image_contact">
+                    <img src="{% static 'img/contact.jpg' %}" class="rounded float-left" alt="contact" width="180" height="260">
+                </div>
+
+                <div class="col-9">
+                    <form action="{% url 'cv_app:contact' %}" method="post">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="col">
+                                <p> {{ form.first_name }} </p>
+                            </div>
+                            <div class="col">
+                                <p> {{ form.last_name }} </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <p> {{ form.phone_number }} </p>
+                            </div>
+                            <div class="col">
+                                <p> {{ form.email }} </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <p> {{ form.message }} </p>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="save btn btn-outline-dark">Save</button>
+                     </form>
+
+                    </div>
+            </div>
+
+        </div>
+
+</div>
+
+
+{% endblock %}

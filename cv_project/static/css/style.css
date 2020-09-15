@@ -8286,3 +8286,10 @@ a[data-toggle="collapse"] {
 
 .footer p {
   color: rgba(255, 255, 255, 0.5); }
+
+@media all and (max-width: 720px) {
+    #image_contact
+        {
+            display:none;
+        }
+    }
