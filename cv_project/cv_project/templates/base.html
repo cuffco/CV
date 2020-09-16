@@ -26,14 +26,14 @@
         <div class="wrapper d-flex align-items-stretch">
             <!-- Navigation-->
             <nav id="sidebar">
-                    <div class="p-4 pt-5">
+                <div class="p-4 pt-5">
                     <a href="{% url 'cv_app:profil' %}" class="img logo rounded-circle mb-5" style="background-image: url(./static/img/logo.jpg);"></a>
                 <ul class="list-unstyled components mb-5">
                   <li>
-                      <a href="{% url 'cv_app:profil' %}">Profil</a>
-                  </li>
-                  <li>
                       <a href="{% url 'cv_app:services' %}">Services</a>
+                  </li>
+                    <li>
+                        <a href="{% url 'cv_app:profil' %}">Profil</a>
                   </li>
                   <li>
                       <a href="{% url 'cv_app:projects' %}">Projets</a>
@@ -47,10 +47,20 @@
                 <!-- Footer-->
 
                 <div class="footer">
-                    <a href="https://www.linkedin.com/in/alexandre-cuffel-97510b47/" target="_blank">
-                        <i class="fab fa-linkedin fa-3x"></i>
-                    </a>
 
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="https://www.linkedin.com/in/alexandre-cuffel-97510b47/" target="_blank">
+                                <i class="fab fa-linkedin fa-3x"></i>
+                            </a>
+                        </div>
+
+                        <div class="offset-col-1">
+                            <a href="mailto:alexandre.cuffel@cuffco.net" target="_blank">
+                                <i class="fas fa-envelope fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
               </div>
