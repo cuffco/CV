@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'cv_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cv',
+        'NAME': 'contact',
         'USER': 'cuffco',
-        'PASSWORD': '',
+        'PASSWORD': 'alexandre',
         'HOST': '',
         'PORT': '5432',
     }
