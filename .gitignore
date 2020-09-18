@@ -132,3 +132,4 @@ dmypy.json
 cv_project/cv_project/settings/production.py
 __pycache__
 cv_project/cv_project/staticfiles/
+../.idea/
