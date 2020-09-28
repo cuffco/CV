@@ -83,25 +83,13 @@ WSGI_APPLICATION = 'cv_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cv',
+        'NAME': 'cv',  # Put contact before pushing in git
         'USER': 'cuffco',
         'PASSWORD': 'alexandre',
         'HOST': '',
         'PORT': '5432',
     }
 }
-
-"""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'contact',
-        'USER': 'cuffco',
-        'PASSWORD': 'alexandre',
-        'HOST': '',
-        'PORT': '5432',
-    }
-}"""
 
 
 # Password validation
