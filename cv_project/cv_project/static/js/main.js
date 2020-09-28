@@ -16,4 +16,6 @@
       $('#sidebar').toggleClass('active');
   });
 
+    $('#lang_changer input[name="next"]').attr('value', '/'+window.location.pathname.substring(4));
+
 })(jQuery);

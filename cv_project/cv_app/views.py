@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.utils.translation import ugettext_lazy
+from django.utils.translation import activate, get_language
 
 from .forms import ContactForm, ParagraphErrorList
 from .models import Contact

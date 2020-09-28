@@ -9,6 +9,7 @@
 
         {% load static %}
 
+        {% load i18n %}
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -19,7 +20,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}" />
         <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}" />
-
+        <link type="text/css" rel="stylesheet" href="{% static 'css/flags.css' %}" />
     </head>
 
     <body>
@@ -28,18 +29,42 @@
             <nav id="sidebar">
                 <div class="p-4 pt-5">
                     <a href="{% url 'cv_app:profil' %}" class="img logo rounded-circle mb-5" style="background-image: url(/static/img/logo.jpg);"></a>
+
+                    <div class="row mb-2">
+                        <div class="col">
+
+
+                        <form action="{% url 'set_language' %}" method="post">
+                          {% csrf_token %}
+                          <input name="next" type="hidden" value="{{ redirect_to }}" />
+                            {% get_current_language as LANGUAGE_CODE %}
+                            {% get_available_languages as LANGUAGES %}
+                            {% get_language_info_list for LANGUAGES as languages %}
+                            {% for language in languages %}
+                              <button type="submit" name="language" value="{{ language.code }}" class="btn btn-dark">
+                                {% if language.code == 'fr' %}
+                                  {{ language.name_translated }} <i class="flag flag-fr"></i>
+                                  {% elif language.code == 'en' %}
+                                  {{ language.name_translated }} <i class="flag flag-england"></i>
+                                  {% endif %}
+                              </button>
+                            {% endfor %}
+                        </form>
+                        </div>
+                    </div>
+
                 <ul class="list-unstyled components mb-5">
                   <li>
-                      <a href="{% url 'cv_app:services' %}">Services</a>
+                      <a href="{% url 'cv_app:services' %}">{% trans 'Services' %} </a>
                   </li>
                     <li>
-                        <a href="{% url 'cv_app:profil' %}">Profil</a>
+                        <a href="{% url 'cv_app:profil' %}">{% trans 'Profil' %} </a>
                   </li>
                   <li>
-                      <a href="{% url 'cv_app:projects' %}">Projets</a>
+                      <a href="{% url 'cv_app:projects' %}">{% trans 'Projets' %} </a>
                   </li>
                   <li>
-                  <a href="{% url 'cv_app:contact' %}">Contact</a>
+                  <a href="{% url 'cv_app:contact' %}">{% trans 'Contact' %} </a>
                   </li>
                 </ul>
 
@@ -61,6 +86,8 @@
                             </a>
                         </div>
                     </div>
+
+
                 </div>
 
               </div>

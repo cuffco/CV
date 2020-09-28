@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
+
 {% load static %}
 
+{% load i18n %}
+
 {% block content %}
+
 
 <div id="content" class="p-4 p-md-5">
 
@@ -13,7 +17,7 @@
               <span class="sr-only">Toggle Menu</span>
             </button>
               <div>
-                  <strong> Projets </strong>
+                  <strong> {% trans 'Projets' %} </strong>
               </div>
 
           </div>

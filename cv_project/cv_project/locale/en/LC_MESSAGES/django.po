@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-28 16:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cv_app/templates/contact.html:19 cv_project/templates/base.html:67
+msgid "Contact"
+msgstr "Contact"
+
+#: cv_app/templates/profil.html:19 cv_project/templates/base.html:61
+msgid "Profil"
+msgstr "Profile"
+
+#: cv_app/templates/projects.html:20 cv_project/templates/base.html:64
+msgid "Projets"
+msgstr "Projects"
+
+#: cv_app/templates/services.html:19 cv_project/templates/base.html:58
+msgid "Services"
+msgstr "Services"
+
+#: cv_app/templates/services.html:26
+msgid "Me Concernant"
+msgstr "About Me"
+
+#: cv_app/templates/services.html:27
+msgid ""
+"Curieux et déterminé, c'est après une reconversion professionnelle en 2016 "
+"que j'ai découvert le monde de l'informatique. Mon attrait pour ce domaine "
+"m'a permis d'évoluer rapidement et de découvrir de nombreux métiers."
+msgstr ""
+"Curious and determined, it was after a professional reconversion in 2016 "
+"that I discovered the world of IT. My attraction for this field allowed me "
+"to evolve quickly and to discover many different jobs."
+
+#: cv_app/templates/services.html:28
+msgid ""
+"Toujours en quête d'apprentissage et en recherche de nouvelles expériences, "
+"j'ai décidé de devenir développeur web en freelance."
+msgstr ""
+"Always looking for learning and new experiences, I decided to become a "
+"freelance web developer."
+
+#: cv_app/templates/services.html:39
+msgid ""
+"En tant que développeur web python, je me suis spécialisé dans le back-end "
+"et notamment sur le framework Django. Je maitrise aussi le framework Flask "
+"pour la création de plus petites applications."
+msgstr ""
+"As a python web developer, I specialized in the back-end and especially on "
+"the Django framework. I also mastered the Flask framework for creating "
+"smaller applications."
+
+#: cv_app/templates/services.html:40
+msgid ""
+"Dans une époque où la tendance est au 'API First' vous avez besoin d'une "
+"API ? Nous pourrions mettre en place une API branchée à une base de donnée "
+"que toutes vos plateformes consommeront."
+msgstr ""
+"In a time when the trend is towards 'API First' you need an API? We could "
+"set up an API connected to a database that all your platforms will consume."
+
+#: cv_app/templates/services.html:49
+msgid ""
+"Je suis un développeur Full Stack, ce qui me permet d'intervenir également "
+"sur le Front. Je suis capable d'intégrer du Javascript, JQuery, Bootstrap "
+"pour l'animation de vos pages webs."
+msgstr ""
+"I am a Full Stack developer, which allows me to work on the Front as well. I "
+"am able to integrate Javascript, JQuery, Bootstrap for the animation of your "
+"web pages."
+
+#: cv_app/templates/services.html:50
+msgid ""
+"De plus, je suis en train de monter en compétence sur le React.JS, Next.JS "
+"pour améliorer les performances de votre site et optimiser le SEO."
+msgstr ""
+"In addition, I am in the process of gaining expertise on React.JS, Next.JS "
+"to improve the performance of your site and optimize SEO."
+
+#: cv_app/templates/services.html:59
+msgid "Services complémentaires"
+msgstr "Additional Services"
+
+#: cv_app/templates/services.html:60
+msgid ""
+"Je peux également gérer la mise en production de votre site et mettre en "
+"place du monitoring pour surveiller son bon fonctionnement. Si vous avez des "
+"montées de charge fréquentes, nous pouvons mettre en place une solution avec "
+"Docker et Kubernetes."
+msgstr ""
+"I can also manage the production start-up of your site and set up monitoring "
+"to supervise its proper performance. If you have frequent load increases, "
+"we can set up a solution with Docker and Kubernetes."
+
+#: cv_app/templates/services.html:61
+msgid ""
+"Je propose aussi l'intégration de tests unitaires, d'applications, "
+"fonctionnels et automatisés avec Unittest, Coverage, Selenium, Postman et "
+"Newman."
+msgstr ""
+"I also propose the integration of unit, application, functional and automated "
+"tests with Unittest, Coverage, Selenium, Postman and Newman."
+
+#: cv_app/templates/services.html:62
+msgid ""
+"Pour documenter votre site, j'utiliserai des diagrammes UML afin de "
+"compléter les spécifications techniques et fonctionnels."
+msgstr ""
+"To document your site, I will use UML diagrams to complete "
+"the technical and functional specifications."
+
+#: cv_project/settings/__init__.py:143
+msgid "French"
+msgstr ""
+
+#: cv_project/settings/__init__.py:144
+msgid "English"
+msgstr ""

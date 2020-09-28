@@ -24,6 +24,7 @@ from django.conf.urls.static import static
 urlpatterns = i18n_patterns(
     path('', include('cv_app.urls', namespace='cv_app')),
     path('content/', admin.site.urls),
+    path('i18n/', include('django.conf.urls.i18n')),
 )
 
 if settings.DEBUG:
