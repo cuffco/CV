@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'cv_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cv',  # Put contact before pushing in git
+        'NAME': 'contact',  # Put contact before pushing in git
         'USER': 'cuffco',
         'PASSWORD': 'alexandre',
         'HOST': '',

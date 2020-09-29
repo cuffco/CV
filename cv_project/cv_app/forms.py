@@ -1,6 +1,7 @@
 from django.forms import ModelForm
 from django import forms
 from django.forms.utils import ErrorList
+from django.utils.translation import ugettext_lazy as _
 
 from .models import Contact
 
@@ -8,11 +9,11 @@ from .models import Contact
 class ContactForm(ModelForm):
 
     first_name = forms.CharField(widget=forms.TextInput(attrs={
-        'placeholder': 'Prénom', 'size': 30}))
+        'placeholder': _('Prénom'), 'size': 30}))
     last_name = forms.CharField(widget=forms.TextInput(attrs={
-        'placeholder': 'Nom', 'size': 30}))
+        'placeholder': _('Nom'), 'size': 30}))
     phone_number = forms.CharField(widget=forms.TextInput(attrs={
-        'placeholder': 'Téléphone', 'size': 30}))
+        'placeholder': _('Téléphone'), 'size': 30}))
     email = forms.CharField(widget=forms.EmailInput(attrs={
         'placeholder': 'Email', 'size': 30}))
     message = forms.CharField(required=False, widget=forms.Textarea(attrs={

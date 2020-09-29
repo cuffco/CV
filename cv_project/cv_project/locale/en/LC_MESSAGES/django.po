@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-28 16:33+0000\n"
+"POT-Creation-Date: 2020-09-29 07:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: cv_app/forms.py:12
+msgid "Prénom"
+msgstr "First Name"
+
+#: cv_app/forms.py:14
+msgid "Nom"
+msgstr "Last Name"
+
+#: cv_app/forms.py:16
+msgid "Téléphone"
+msgstr "Phone"
+
 #: cv_app/templates/contact.html:19 cv_project/templates/base.html:67
 msgid "Contact"
 msgstr "Contact"
@@ -26,9 +38,165 @@ msgstr "Contact"
 msgid "Profil"
 msgstr "Profile"
 
+#: cv_app/templates/profil.html:27
+msgid "Ma Formation"
+msgstr "My Training"
+
+#: cv_app/templates/profil.html:28
+msgid ""
+"Titulaire d'un diplôme d'ingénieur généraliste, j'ai suivi une formation "
+"complémetaire en ligne pour obtenir un diplôme de développeur d'application "
+"Python"
+msgstr ""
+"I graduated a master's degree in general engineering, I followed a "
+"complementary online training to obtain a Python application developer "
+"diploma."
+
+#: cv_app/templates/profil.html:30
+msgid "2020 : Diplôme de développeur d'application - Python"
+msgstr "2020 : Application Developer Diploma - Python"
+
+#: cv_app/templates/profil.html:35
+msgid "2013 : Diplôme d'ingénieur généraliste"
+msgstr "2013 : Master's degree in general engineering"
+
+#: cv_app/templates/profil.html:44
+msgid "Mes Expériences"
+msgstr "My Experiences"
+
+#: cv_app/templates/profil.html:46
+msgid "Freelance Full Stack Développeur "
+msgstr "Freelance Full Stack Developer "
+
+#: cv_app/templates/profil.html:47
+msgid "De Juin 2020 à Septembre 2020"
+msgstr "From June 2020 to September 2020"
+
+#: cv_app/templates/profil.html:48
+msgid ""
+"Création from scratch d'un site web développé en Django pour une association "
+"luttant pour la protection et la défense des animaux et de l’environnement."
+msgstr ""
+"Creation from scratch of a website developed in Django for an association "
+"fighting for the protection and defense of animals and the environment."
+
+#: cv_app/templates/profil.html:49 cv_app/templates/profil.html:70
+#: cv_app/templates/profil.html:86
+msgid "Compétences: "
+msgstr "Skills: "
+
+#: cv_app/templates/profil.html:55 cv_app/templates/profil.html:75
+msgid "Intégration continue: "
+msgstr "Continuous integration: "
+
+#: cv_app/templates/profil.html:59 cv_app/templates/profil.html:77
+#: cv_app/templates/profil.html:91
+msgid "Suivi de projet: "
+msgstr "Project Management: "
+
+#: cv_app/templates/profil.html:68
+msgid "De Novembre 2018 à Juin 2020"
+msgstr "From November 2018 to June 2020"
+
+#: cv_app/templates/profil.html:69
+msgid ""
+"Prise en charge des tests d'intégration, fonctionnels, d'acceptation et "
+"automatiques pour Orange TV (Live, replay, VOD et PickleTV) "
+msgstr ""
+"Support for integration, functional, acceptance and automatic tests for "
+"Orange TV (Live, replay, VOD and PickleTV) "
+
+#: cv_app/templates/profil.html:72
+msgid " Méthodologie Agile: "
+msgstr " Agile Methodology: "
+
+#: cv_app/templates/profil.html:73
+msgid "Environnement: "
+msgstr "Environment: "
+
+#: cv_app/templates/profil.html:84
+msgid "De Mai 2016 à Novembre 2018"
+msgstr "From May 2016 to November 2018"
+
+#: cv_app/templates/profil.html:85
+msgid "Gestion d'un projet informatique sur le site E.quilibre d'EDF"
+msgstr "Management of an IT project on EDF's E.quilibre website"
+
+#: cv_app/templates/profil.html:88
+msgid "Méthodologie Agile: "
+msgstr "Agile Methodology: "
+
+#: cv_app/templates/profil.html:89
+msgid "Environnement:"
+msgstr "Environment:"
+
 #: cv_app/templates/projects.html:20 cv_project/templates/base.html:64
 msgid "Projets"
 msgstr "Projects"
+
+#: cv_app/templates/projects.html:26
+msgid "Mes Projets"
+msgstr "My Projects"
+
+#: cv_app/templates/projects.html:27
+msgid ""
+"Les différents projets que j'ai pu réaliser sont listés du plus récent au "
+"plus ancien"
+msgstr ""
+"The different projects I've been able to realize are listed from the most "
+"recent to the oldest."
+
+#: cv_app/templates/projects.html:33
+msgid ""
+"Pour venir en aide à une association, j'ai développé ce site web en Django. "
+"Le site est toujours en cours de création mais une V0 est disponible."
+msgstr ""
+"To help an association, I developed this website in Django. The site is "
+"still under construction but a V0 is available."
+
+#: cv_app/templates/projects.html:49
+msgid ""
+"Ce site web réalisé en Django est une amélioration de l'application Open "
+"Food Facts. L'utilisateur peut créer un compte et récupérer les produits "
+"qu'il a enregistré dans ses favoris."
+msgstr ""
+"This website made in Django is an enhancement of the Open Food Facts "
+"application. The user can create an account and retrieve the products he has "
+"saved in his favorites."
+
+#: cv_app/templates/projects.html:65
+msgid ""
+"Cette application réalisée avec le framework Python Flask va demander à "
+"l'utilisateur de saisir une question, puis appeler les API GoogleMap et "
+"MediaWiki. En fonction de la question, GrandPy va afficher la localisation "
+"et raconter une histoire sur le lieu."
+msgstr ""
+"This application made with the Python Flask framework will ask the user to "
+"enter a question, then call the GoogleMap and MediaWiki APIs. Depending on "
+"the question, GrandPy will display the location and tell a story about the "
+"place."
+
+#: cv_app/templates/projects.html:81
+msgid ""
+"Ce programme réalisé en Python, va récupérer des données de l'API "
+"OpenFoodfacts. L'utilisateur pourra via le terminal, choisir un aliment et "
+"l'application lui en proposera d'autres avec un meilleur nutriscore."
+msgstr ""
+"This program, made in Python, will retrieve data from the OpenFoodfacts API. "
+"The user will be able to choose a food via the terminal and the application "
+"will propose others with a better nutriscore."
+
+#: cv_app/templates/projects.html:93
+msgid "Labyrinthe Mac Gyver"
+msgstr "Mac Gyver Labyrinth"
+
+#: cv_app/templates/projects.html:96
+msgid ""
+"Ce mini jeu écrit en Python a pour but d'aider Mac Gyver à sortir d'un "
+"Labyrinthe."
+msgstr ""
+"This mini game written in Python is designed to help Mac Gyver get out of a "
+"maze."
 
 #: cv_app/templates/services.html:19 cv_project/templates/base.html:58
 msgid "Services"
@@ -105,8 +273,8 @@ msgid ""
 "Docker et Kubernetes."
 msgstr ""
 "I can also manage the production start-up of your site and set up monitoring "
-"to supervise its proper performance. If you have frequent load increases, "
-"we can set up a solution with Docker and Kubernetes."
+"to supervise its proper performance. If you have frequent load increases, we "
+"can set up a solution with Docker and Kubernetes."
 
 #: cv_app/templates/services.html:61
 msgid ""
@@ -114,16 +282,16 @@ msgid ""
 "fonctionnels et automatisés avec Unittest, Coverage, Selenium, Postman et "
 "Newman."
 msgstr ""
-"I also propose the integration of unit, application, functional and automated "
-"tests with Unittest, Coverage, Selenium, Postman and Newman."
+"I also propose the integration of unit, application, functional and "
+"automated tests with Unittest, Coverage, Selenium, Postman and Newman."
 
 #: cv_app/templates/services.html:62
 msgid ""
 "Pour documenter votre site, j'utiliserai des diagrammes UML afin de "
 "compléter les spécifications techniques et fonctionnels."
 msgstr ""
-"To document your site, I will use UML diagrams to complete "
-"the technical and functional specifications."
+"To document your site, I will use UML diagrams to complete the technical and "
+"functional specifications."
 
 #: cv_project/settings/__init__.py:143
 msgid "French"
