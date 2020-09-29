@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
+
 {% load static %}
 
+{% load i18n %}
+
 {% block content %}
+
 
 <div id="content" class="p-4 p-md-5">
 
@@ -13,20 +17,20 @@
               <span class="sr-only">Toggle Menu</span>
             </button>
               <div>
-                  <strong> Projets </strong>
+                  <strong> {% trans 'Projets' %} </strong>
               </div>
 
           </div>
         </nav>
 
-        <h2 class="mb-4">Mes Projets</h2>
-        <p> Les différents projets que j'ai pu réaliser sont listés du plus récent au plus ancien</p>
+        <h2 class="mb-4">{% trans 'Mes Projets' %}</h2>
+        <p> {% trans "Les différents projets que j'ai pu réaliser sont listés du plus récent au plus ancien" %}</p>
 
         <div class="container mt-3">
             <h6 class="mb-4">Get Up For Animals</h6>
             <div class="row">
                 <div class="col">
-                   <p> Pour venir en aide à une association, j'ai développé ce site web en Django. Le site est toujours en cours de création mais une V0 est disponible.</p>
+                   <p> {% trans "Pour venir en aide à une association, j'ai développé ce site web en Django. Le site est toujours en cours de création mais une V0 est disponible." %}</p>
                     <p><a href="http://164.90.189.23/" target="_blank">Site</a></p>
                     <p><a href="https://github.com/acuffel/Getup" target="_blank">Github</a></p>
                 </div>
@@ -42,7 +46,7 @@
             <h6 class="mb-4">Pur Beurre</h6>
             <div class="row">
                 <div class="col">
-                   <p> Ce site web réalisé en Django est une amélioration de l'application Open Food Facts. L'utilisateur peut créer un compte et récupérer les produits qu'il a enregistré dans ses favoris.</p>
+                   <p> {% trans "Ce site web réalisé en Django est une amélioration de l'application Open Food Facts. L'utilisateur peut créer un compte et récupérer les produits qu'il a enregistré dans ses favoris." %}</p>
                     <p><a href="https://purdebeurre.herokuapp.com/" target="_blank">Site</a></p>
                     <p><a href="https://github.com/acuffel/PurBeurre" target="_blank">Github</a></p>
                 </div>
@@ -58,7 +62,7 @@
             <h6 class="mb-4">GrandPy-Bot</h6>
             <div class="row">
                 <div class="col">
-                   <p> Cette application réalisée avec le framework Python Flask va demander à l'utilisateur de saisir une question, puis appeler les API GoogleMap et MediaWiki. En fonction de la question, GrandPy va afficher la localisation et raconter une histoire sur le lieu.</p>
+                   <p>{% trans "Cette application réalisée avec le framework Python Flask va demander à l'utilisateur de saisir une question, puis appeler les API GoogleMap et MediaWiki. En fonction de la question, GrandPy va afficher la localisation et raconter une histoire sur le lieu." %}</p>
                     <p><a href="https://carl-grandpybot.herokuapp.com/" target="_blank">Site</a></p>
                     <p><a href="https://github.com/acuffel/GrandPy-Bot" target="_blank">Github</a></p>
                 </div>
@@ -74,7 +78,7 @@
             <h6 class="mb-4">Open Food Facts</h6>
             <div class="row">
                 <div class="col">
-                   <p> Ce programme réalisé en Python, va récupérer des données de l'API OpenFoodfacts. L'utilisateur pourra via le terminal, choisir un aliment et l'application lui en proposera d'autres avec un meilleur nutriscore.</p>
+                   <p>{% trans "Ce programme réalisé en Python, va récupérer des données de l'API OpenFoodfacts. L'utilisateur pourra via le terminal, choisir un aliment et l'application lui en proposera d'autres avec un meilleur nutriscore." %}</p>
                     <a href="https://github.com/acuffel/OpenFoodFacts" target="_blank">Github</a>
                 </div>
                 <div class="col">
@@ -86,10 +90,10 @@
         <hr class="fixed-subnav-list-hr">
 
         <div class="container mt-3">
-            <h6 class="mb-4">Labyrinthe Mac Gyver</h6>
+            <h6 class="mb-4">{% trans "Labyrinthe Mac Gyver" %}</h6>
             <div class="row">
                 <div class="col">
-                   <p> Ce mini jeu écrit en Python a pour but d'aider Mac Gyver à sortir d'un Labyrinthe.</p>
+                   <p> {% trans "Ce mini jeu écrit en Python a pour but d'aider Mac Gyver à sortir d'un Labyrinthe." %}</p>
                    <a href="https://github.com/acuffel/mac_gyver" target="_blank">Github</a>
                 </div>
                 <div class="col">
