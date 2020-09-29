@@ -40,7 +40,7 @@ msgstr "Profile"
 
 #: cv_app/templates/profil.html:27
 msgid "Ma Formation"
-msgstr "My Training"
+msgstr "My Education"
 
 #: cv_app/templates/profil.html:28
 msgid ""
@@ -48,9 +48,8 @@ msgid ""
 "complémetaire en ligne pour obtenir un diplôme de développeur d'application "
 "Python"
 msgstr ""
-"I graduated a master's degree in general engineering, I followed a "
-"complementary online training to obtain a Python application developer "
-"diploma."
+"Graduated of a Master Degree in general engineering, "
+"I’ve upgraded my skills with a Python app developer diploma."
 
 #: cv_app/templates/profil.html:30
 msgid "2020 : Diplôme de développeur d'application - Python"
@@ -58,7 +57,7 @@ msgstr "2020 : Application Developer Diploma - Python"
 
 #: cv_app/templates/profil.html:35
 msgid "2013 : Diplôme d'ingénieur généraliste"
-msgstr "2013 : Master's degree in general engineering"
+msgstr "2013 : Master degree in general engineering"
 
 #: cv_app/templates/profil.html:44
 msgid "Mes Expériences"
@@ -77,7 +76,7 @@ msgid ""
 "Création from scratch d'un site web développé en Django pour une association "
 "luttant pour la protection et la défense des animaux et de l’environnement."
 msgstr ""
-"Creation from scratch of a website developed in Django for an association "
+"Creation from scratch of a website developed with Django for an association "
 "fighting for the protection and defense of animals and the environment."
 
 #: cv_app/templates/profil.html:49 cv_app/templates/profil.html:70
@@ -213,15 +212,15 @@ msgid ""
 "m'a permis d'évoluer rapidement et de découvrir de nombreux métiers."
 msgstr ""
 "Curious and determined, it was after a professional reconversion in 2016 "
-"that I discovered the world of IT. My attraction for this field allowed me "
-"to evolve quickly and to discover many different jobs."
+"that I discovered the world of IT. My interest for this field allowed me "
+"to develop my skills quickly and to discover many different jobs."
 
 #: cv_app/templates/services.html:28
 msgid ""
 "Toujours en quête d'apprentissage et en recherche de nouvelles expériences, "
 "j'ai décidé de devenir développeur web en freelance."
 msgstr ""
-"Always looking for learning and new experiences, I decided to become a "
+"Seeking continuous improvement and new experiences, I decided to become a "
 "freelance web developer."
 
 #: cv_app/templates/services.html:39
@@ -240,8 +239,9 @@ msgid ""
 "API ? Nous pourrions mettre en place une API branchée à une base de donnée "
 "que toutes vos plateformes consommeront."
 msgstr ""
-"In a time when the trend is towards 'API First' you need an API? We could "
-"set up an API connected to a database that all your platforms will consume."
+"In an 'API First’ era, I am working on mastering this skill. "
+"Do you need an API? We could set up an API connected to a database "
+"to synchronise on all your platforms."
 
 #: cv_app/templates/services.html:49
 msgid ""
@@ -249,17 +249,17 @@ msgid ""
 "sur le Front. Je suis capable d'intégrer du Javascript, JQuery, Bootstrap "
 "pour l'animation de vos pages webs."
 msgstr ""
-"I am a Full Stack developer, which allows me to work on the Front as well. I "
-"am able to integrate Javascript, JQuery, Bootstrap for the animation of your "
-"web pages."
+"As Full Stack developer, I am working on Front-End as well. "
+"I am able to integrate Javascript, JQuery, Bootstrap for the animation "
+"of your web pages."
 
 #: cv_app/templates/services.html:50
 msgid ""
 "De plus, je suis en train de monter en compétence sur le React.JS, Next.JS "
 "pour améliorer les performances de votre site et optimiser le SEO."
 msgstr ""
-"In addition, I am in the process of gaining expertise on React.JS, Next.JS "
-"to improve the performance of your site and optimize SEO."
+"In addition, I am developing my skills on React.JS, Next.JS to improve the "
+"performance of your site and to optimise the SEO."
 
 #: cv_app/templates/services.html:59
 msgid "Services complémentaires"
@@ -272,9 +272,9 @@ msgid ""
 "montées de charge fréquentes, nous pouvons mettre en place une solution avec "
 "Docker et Kubernetes."
 msgstr ""
-"I can also manage the production start-up of your site and set up monitoring "
-"to supervise its proper performance. If you have frequent load increases, we "
-"can set up a solution with Docker and Kubernetes."
+"I can also manage the start-up production of your website and monitoring "
+"the supervision of its performance. If you have frequent load increases, we "
+"can set up a Docker and Kubernetes management tool."
 
 #: cv_app/templates/services.html:61
 msgid ""
@@ -282,8 +282,8 @@ msgid ""
 "fonctionnels et automatisés avec Unittest, Coverage, Selenium, Postman et "
 "Newman."
 msgstr ""
-"I also propose the integration of unit, application, functional and "
-"automated tests with Unittest, Coverage, Selenium, Postman and Newman."
+"I also offer the integration of unit, application, functional and automated "
+"tests with Unittest, Coverage, Selenium, Postman and Newman."
 
 #: cv_app/templates/services.html:62
 msgid ""
